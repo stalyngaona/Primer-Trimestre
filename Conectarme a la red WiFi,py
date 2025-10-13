@@ -12,4 +12,4 @@ def do_connect(SSID, PASSWORD):
             pass
         print('Configuracion de red (IP/netmask/gw/DNS):', sta_if.ifconfig())
 
-do_connect('clases1', '12345678')
+do_connect('nombre de la red', 'contraseña de la red')
